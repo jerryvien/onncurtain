@@ -3,72 +3,70 @@
 
 <main class="main">
 
-  <!-- About Section -->
-  <section id="about" class="about section">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
+<!-- About Section -->
+<section id="about" class="about section">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2" data-aos="fade-up" data-aos-delay="400">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
                 },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 1
-                  }
+                "1200": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 1
                 }
               }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/img_h_6.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/img_h_7.jpg" alt="Image" class="img-fluid">
-              </div>
-              <div class="swiper-slide">
-                <img src="assets/img/img_h_8.jpg" alt="Image" class="img-fluid">
-              </div>
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/img_h_6.jpg" alt="Curtain Design" class="img-fluid">
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+              <img src="assets/img/img_h_7.jpg" alt="Curtain Display" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/img_h_8.jpg" alt="Elegant Curtains" class="img-fluid">
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 order-lg-1">
-          <span class="section-subtitle" data-aos="fade-up">Welcome</span>
-          <h1 class="mb-4" data-aos="fade-up">
-            Excepteur sint occaecat cupidatat non proident
-          </h1>
-          <p data-aos="fade-up">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
-          </p>
-          <p class="mt-5" data-aos="fade-up">
-            <a href="#" class="btn btn-get-started">Get Started</a>
-          </p>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
+      <div class="col-lg-4 order-lg-1">
+        <span class="section-subtitle" data-aos="fade-up">Welcome to On Curtain</span>
+        <h1 class="mb-4" data-aos="fade-up">
+          Elevating Your Interiors with Exquisite Curtain Designs
+        </h1>
+        <p data-aos="fade-up">
+          At On Curtain, we are passionate about transforming spaces with our premium curtain solutions. Though our company is young—just 3 to 4 years in business—our expertise runs deep. Our dedicated designer and seasoned sales director each bring over 10 years of industry experience, ensuring that every product we offer blends innovative design with exceptional quality.
+        </p>
+        <p class="mt-5" data-aos="fade-up">
+          <a href="#" class="btn btn-get-started">Discover Our Collection</a>
+        </p>
+      </div>
     </div>
-  </section>
-  <!-- /About Section -->
+  </div>
+</section>
+<!-- /About Section -->
 
-  <!-- About 2 Section -->
+
+<!-- About 2 Section -->
   <section id="about-2" class="about-2 section light-background">
     <div class="container">
       <div class="content">
@@ -104,9 +102,9 @@
       </div>
     </div>
   </section>
-  <!-- /About 2 Section -->
+<!-- /About 2 Section -->
 
-  <!-- Services Section -->
+<!-- Services Section -->
   <section id="services" class="services section light-background">
     <div class="container">
       <div class="row gy-4 justify-content-center">
@@ -146,9 +144,9 @@
       </div>
     </div>
   </section>
-  <!-- /Services Section -->
+<!-- /Services Section -->
 
-  <!-- Stats Section -->
+<!-- Stats Section -->
   <section id="stats" class="stats section light-background">
     <div class="container">
       <div class="row gy-4 justify-content-center">
@@ -186,9 +184,9 @@
       </div>
     </div>
   </section>
-  <!-- /Stats Section -->
+<!-- /Stats Section -->
 
-  <!-- Blog Posts Section -->
+<!-- Blog Posts Section -->
   <section id="blog-posts" class="blog-posts section">
     <div class="container section-title" data-aos="fade-up">
       <p>Recent Posts</p>
@@ -277,9 +275,9 @@
       </div>
     </div>
   </section>
-  <!-- /Blog Posts Section -->
+<!-- /Blog Posts Section -->
 
-  <!-- Tabs Section -->
+<!-- Tabs Section -->
   <section id="tabs" class="tabs section light-background">
     <div class="container">
       <div class="row gap-x-lg-4 justify-content-between">
@@ -400,9 +398,9 @@
       </div>
     </div>
   </section>
-  <!-- /Tabs Section -->
+<!-- /Tabs Section -->
 
-  <!-- Services 2 Section -->
+<!-- Services 2 Section -->
   <section id="services-2" class="services-2 section">
     <div class="container">
       <div class="row justify-content-center" data-aos="fade-up">
@@ -475,9 +473,9 @@
       </div>
     </div>
   </section>
-  <!-- /Services 2 Section -->
+<!-- /Services 2 Section -->
 
-  <!-- Pricing Section -->
+<!-- Pricing Section -->
   <section id="pricing" class="pricing section light-background">
     <div class="container section-title" data-aos="fade-up">
       <p>Plans</p>
@@ -537,9 +535,9 @@
       </div>
     </div>
   </section>
-  <!-- /Pricing Section -->
+<!-- /Pricing Section -->
 
-  <!-- Faq Section -->
+<!-- Faq Section -->
   <section id="faq" class="faq section">
     <div class="container section-title" data-aos="fade-up">
       <p>Plans</p>
@@ -593,9 +591,9 @@
       </div>
     </div>
   </section>
-  <!-- /Faq Section -->
+<!-- /Faq Section -->
 
-  <!-- Testimonials Section -->
+<!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section">
     <div class="container section-title" data-aos="fade-up">
       <p>Happy Customers</p>
@@ -683,7 +681,7 @@
       </div>
     </div>
   </section>
-  <!-- /Testimonials Section -->
+<!-- /Testimonials Section -->
 
 </main>
 
