@@ -33,7 +33,7 @@
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment below if using an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Active.</h1>
+        <h1 class="sitename">On Curtain.</h1>
       </a>
       <nav id="navmenu" class="navmenu">
         <ul>
