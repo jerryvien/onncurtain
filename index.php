@@ -67,124 +67,121 @@
 
 
 <!-- About 2 Section -->
-  <section id="about-2" class="about-2 section light-background">
-    <div class="container">
-      <div class="content">
-        <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
-            <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
-              <div class="img">
-                <img src="assets/img/img_v_3.jpg" alt="circle image" class="img-fluid">
-              </div>
+<section id="about-2" class="about-2 section light-background">
+  <div class="container">
+    <div class="content">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
+          <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
+            <div class="img">
+              <img src="assets/img/img_v_3.jpg" alt="Elegant Curtain Display" class="img-fluid">
             </div>
           </div>
-          <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
-            <div class="px-3">
-              <span class="content-subtitle">Our Mission</span>
-              <h2 class="content-title text-start">
-                The Big Oxmox advised her not to do so, because there were
-                thousands.
-              </h2>
-              <p class="lead">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country.
-              </p>
-              <p class="mb-5">
-                The Big Oxmox advised her not to do so, because there were
-                thousands of bad Commas, wild Question Marks and devious Semikoli.
-              </p>
-              <p>
-                <a href="#" class="btn-get-started">Get Started</a>
-              </p>
-            </div>
+        </div>
+        <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+          <div class="px-3">
+            <span class="content-subtitle">Our Mission</span>
+            <h2 class="content-title text-start">
+              Bringing Elegance and Functionality to Every Home
+            </h2>
+            <p class="lead">
+              At On Curtain, our mission is to transform your living spaces with exquisitely designed curtains that blend beauty and practicality.
+            </p>
+            <p class="mb-5">
+              Our team, led by a visionary designer and an experienced sales director, fuses creativity with deep industry insight to craft bespoke curtain solutions that elevate your space with refined elegance.
+            </p>
+            <p>
+              <a href="#" class="btn-get-started">Explore Our Designs</a>
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 <!-- /About 2 Section -->
 
 <!-- Services Section -->
-  <section id="services" class="services section light-background">
-    <div class="container">
-      <div class="row gy-4 justify-content-center">
-        <div class="col-lg-3">
-          <div class="services-item" data-aos="fade-up">
-            <div class="services-icon">
-              <i class="bi bi-bullseye"></i>
-            </div>
-            <div>
-              <h3>Technology</h3>
-              <p>Separated they live in Bookmarksgrove right at the coast</p>
-            </div>
+<section id="services" class="services section light-background">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-3">
+        <div class="services-item" data-aos="fade-up">
+          <div class="services-icon">
+            <i class="bi bi-bullseye"></i>
+          </div>
+          <div>
+            <h3>Bespoke Curtain Designs</h3>
+            <p>Expertly crafted designs that reflect your unique style and elevate your living space.</p>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="services-item" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-icon">
-              <i class="bi bi-command"></i>
-            </div>
-            <div>
-              <h3>Web Design</h3>
-              <p>Separated they live in Bookmarksgrove right at the coast</p>
-            </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="services-icon">
+            <i class="bi bi-command"></i>
+          </div>
+          <div>
+            <h3>Premium Fabrics</h3>
+            <p>We use only the finest materials to ensure luxurious quality and lasting beauty.</p>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="services-item" data-aos="fade-up" data-aos-delay="200">
-            <div class="services-icon">
-              <i class="bi bi-bar-chart"></i>
-            </div>
-            <div>
-              <h3>Branding</h3>
-              <p>Separated they live in Bookmarksgrove right at the coast</p>
-            </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="services-icon">
+            <i class="bi bi-bar-chart"></i>
+          </div>
+          <div>
+            <h3>Expert Installation</h3>
+            <p>Our experienced team ensures flawless installation with attention to every detail.</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 <!-- /Services Section -->
 
+
 <!-- Stats Section -->
-  <section id="stats" class="stats section light-background">
-    <div class="container">
-      <div class="row gy-4 justify-content-center">
-        <div class="col-lg-5">
-          <div class="images-overlap">
-            <img src="assets/img/img_v_1.jpg" alt="student" class="img-fluid img-1" data-aos="fade-up">
-          </div>
+<section id="stats" class="stats section light-background">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-5">
+        <div class="images-overlap">
+          <img src="assets/img/img_v_1.jpg" alt="Elegant Curtain Showcase" class="img-fluid img-1" data-aos="fade-up">
         </div>
-        <div class="col-lg-4 ps-lg-5">
-          <span class="content-subtitle">Why Us</span>
-          <h2 class="content-title">Far far away Behind the Word Mountains</h2>
-          <p class="lead">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia.
-          </p>
-          <p class="mb-5">
-            There live the blind texts. Separated they live in Bookmarksgrove
-            right at the coast of the Semantics, a large language ocean.
-          </p>
-          <div class="row mb-5 count-numbers">
-            <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
-              <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="3919" data-purecounter-duration="1" class="purecounter number"></span>
-              <span class="d-block">Coffee</span>
-            </div>
-            <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
-              <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="2831" data-purecounter-duration="1" class="purecounter number"></span>
-              <span class="d-block">Codes</span>
-            </div>
-            <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
-              <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1914" data-purecounter-duration="1" class="purecounter number"></span>
-              <span class="d-block">Projects</span>
-            </div>
+      </div>
+      <div class="col-lg-4 ps-lg-5">
+        <span class="content-subtitle">Why Choose On Curtain</span>
+        <h2 class="content-title">Crafting Elegance in Every Detail</h2>
+        <p class="lead">
+          At On Curtain, every curtain is a blend of art and precision. Our commitment to quality and bespoke design transforms each space into an elegant retreat.
+        </p>
+        <p class="mb-5">
+          We pride ourselves on meticulous craftsmanship and a passion for creating stunning window treatments that enhance your home’s beauty.
+        </p>
+        <div class="row mb-5 count-numbers">
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Happy Clients</span>
+          </div>
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Unique Designs</span>
+          </div>
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="480" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Projects Completed</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 <!-- /Stats Section -->
+
 
 <!-- Blog Posts Section -->
   <section id="blog-posts" class="blog-posts section">
