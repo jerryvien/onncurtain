@@ -186,32 +186,33 @@
 <!-- Blog Posts Section -->
   <section id="blog-posts" class="blog-posts section">
     <div class="container section-title" data-aos="fade-up">
-      <p>Recent Posts</p>
-      <h2>Blog Posts</h2>
+      <p>Latest Inspirations</p>
+      <h2>Design Blog</h2>
     </div>
     <div class="container">
       <div class="row gy-4">
         <!-- Blog post 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-            <a href="#" class="thumb d-block"><img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid rounded"></a>
+            <a href="#" class="thumb d-block">
+              <img src="assets/img/img_h_4.jpg" alt="Innovative Curtain Design" class="img-fluid rounded">
+            </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Development</a> •
-                <span class="date">July 20, 2020</span>
+                <a href="#" class="cat">Design Trends</a> •
+                <span class="date">September 15, 2023</span>
               </div>
-              <h3><a href="#">There live the blind texts they live</a></h3>
+              <h3><a href="#">Transform Your Space with Innovative Curtain Designs</a></h3>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Discover how our unique curtain styles bring modern elegance and warmth to any room.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-3.jpg" alt="Image" class="img-fluid rounded-circle">
+                  <img src="assets/img/team/team-3.jpg" alt="Emily Stone" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
-                  <strong class="d-block">Winston Gold</strong>
-                  <span class="">Lead Product Designer</span>
+                  <strong class="d-block">Emily Stone</strong>
+                  <span class="">Creative Director</span>
                 </div>
               </div>
             </div>
@@ -220,24 +221,25 @@
         <!-- Blog post 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-            <a href="#" class="thumb d-block"><img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid rounded"></a>
+            <a href="#" class="thumb d-block">
+              <img src="assets/img/img_h_2.jpg" alt="Perfect Fabric for Curtains" class="img-fluid rounded">
+            </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Development</a> •
-                <span class="date">July 20, 2020</span>
+                <a href="#" class="cat">Home Styling</a> •
+                <span class="date">September 10, 2023</span>
               </div>
-              <h3><a href="#">There live the blind texts they live</a></h3>
+              <h3><a href="#">Choosing the Perfect Fabric for Your Curtains</a></h3>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Learn about premium fabrics and tips to select the ideal material that enhances your décor.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-2.jpg" alt="Image" class="img-fluid rounded-circle">
+                  <img src="assets/img/team/team-2.jpg" alt="Michael Lee" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
-                  <strong class="d-block">Winston Gold</strong>
-                  <span class="">Lead Product Designer</span>
+                  <strong class="d-block">Michael Lee</strong>
+                  <span class="">Fabric Specialist</span>
                 </div>
               </div>
             </div>
@@ -246,24 +248,25 @@
         <!-- Blog post 3 -->
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
-            <a href="#" class="thumb d-block"><img src="assets/img/img_h_3.jpg" alt="Image" class="img-fluid rounded"></a>
+            <a href="#" class="thumb d-block">
+              <img src="assets/img/img_h_3.jpg" alt="Custom Curtains" class="img-fluid rounded">
+            </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Development</a> •
-                <span class="date">July 20, 2020</span>
+                <a href="#" class="cat">Interior Inspiration</a> •
+                <span class="date">September 5, 2023</span>
               </div>
-              <h3><a href="#">There live the blind texts they live</a></h3>
+              <h3><a href="#">Elevate Your Interiors with Custom Curtains</a></h3>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Explore the art of custom curtain design and see how tailored solutions transform your living space.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-1.jpg" alt="Image" class="img-fluid rounded-circle">
+                  <img src="assets/img/team/team-1.jpg" alt="Sophia Carter" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
-                  <strong class="d-block">Winston Gold</strong>
-                  <span class="">Lead Product Designer</span>
+                  <strong class="d-block">Sophia Carter</strong>
+                  <span class="">Design Consultant</span>
                 </div>
               </div>
             </div>
@@ -273,6 +276,7 @@
     </div>
   </section>
 <!-- /Blog Posts Section -->
+
 
 <!-- Tabs Section -->
   <section id="tabs" class="tabs section light-background">
@@ -284,9 +288,9 @@
               <i class="bi bi-alarm"></i>
             </div>
             <div class="service-contents">
-              <h3>Modern and clean design</h3>
+              <h3>Elegant & Innovative Designs</h3>
               <p>
-                Far far away, behind the word mountains, far from the countries.
+                Experience curtains that blend modern aesthetics with timeless elegance.
               </p>
             </div>
           </a>
@@ -295,9 +299,9 @@
               <i class="bi bi-bag-check"></i>
             </div>
             <div class="service-contents">
-              <h3>Sell Products</h3>
+              <h3>Premium Quality Fabrics</h3>
               <p>
-                Far far away, behind the word mountains, far from the countries.
+                We select only the finest materials to create luxurious drapes.
               </p>
             </div>
           </a>
@@ -306,9 +310,9 @@
               <i class="bi bi-briefcase"></i>
             </div>
             <div class="service-contents">
-              <h3>Success Every Day</h3>
+              <h3>Bespoke Customization</h3>
               <p>
-                Far far away, behind the word mountains, far from the countries.
+                Tailored curtain solutions to perfectly match your space and style.
               </p>
             </div>
           </a>
@@ -317,9 +321,9 @@
               <i class="bi bi-easel"></i>
             </div>
             <div class="service-contents">
-              <h3>Bring Ideas to Life</h3>
+              <h3>Expert Installation & Service</h3>
               <p>
-                Far far away, behind the word mountains, far from the countries.
+                Our skilled team ensures flawless installation and exceptional care.
               </p>
             </div>
           </a>
@@ -354,40 +358,36 @@
             </script>
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="assets/img/img_h_1.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/img_h_1.jpg" alt="Elegant Curtain Collections" class="img-fluid">
                 <div class="p-4">
-                  <h3 class="text-black h5 mb-3">Modern and clean design</h3>
+                  <h3 class="text-black h5 mb-3">Elegant Curtain Collections</h3>
                   <div class="row">
                     <div class="col-lg-8">
                       <p>
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Separated they live in Bookmarksgrove right at the
-                        coast of the Semantics, a large language ocean.
+                        Explore our range of custom curtain designs that marry modern trends with classic sophistication.
                       </p>
                       <p>
-                        A small river named Duden flows by their place and supplies it
-                        with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                        Each collection is meticulously crafted to enhance your space with refined elegance.
                       </p>
                     </div>
                     <div class="col-lg-4">
                       <ul class="list-unstyled list-check">
-                        <li>Far far away, behind the word</li>
-                        <li>Far from the countries Vokalia</li>
-                        <li>Separated they live in Bookmarksgrove</li>
+                        <li>Tailored Solutions</li>
+                        <li>Premium Materials</li>
+                        <li>Expert Craftsmanship</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/img_h_2.jpg" alt="Luxury Drapes" class="img-fluid">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_3.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/img_h_3.jpg" alt="Custom Window Treatments" class="img-fluid">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/img_h_4.jpg" alt="Bespoke Curtain Styles" class="img-fluid">
               </div>
             </div>
           </div>
@@ -397,6 +397,7 @@
   </section>
 <!-- /Tabs Section -->
 
+
 <!-- Services 2 Section -->
   <section id="services-2" class="services-2 section">
     <div class="container">
@@ -404,19 +405,16 @@
         <div class="col-md-6 col-lg-4">
           <span class="content-subtitle">Our Services</span>
           <h2 class="content-title">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia
+            Bespoke Curtain Solutions for Every Space
           </h2>
           <p class="lead">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
+            At On Curtain, we transform your interiors with tailor-made curtain solutions that blend elegance with functionality.
           </p>
           <p class="mb-5">
-            Separated they live in Bookmarksgrove right at the coast of the
-            Semantics, a large language ocean.
+            Our services cover every aspect—from custom design and premium fabric selection to expert installation—ensuring your home is elevated with refined style.
           </p>
           <p>
-            <a href="#" class="btn btn-get-started">Get Started</a>
+            <a href="#" class="btn btn-get-started">Discover Our Services</a>
           </p>
         </div>
         <div class="col-md-6 col-lg-6 ps-lg-5">
@@ -424,44 +422,44 @@
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="services-item" data-aos="fade-up">
                 <div class="services-icon">
-                  <i class="bi bi-search"></i>
+                  <i class="bi bi-pencil"></i>
                 </div>
                 <div>
-                  <h3>Square</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                  <h3>Custom Designs</h3>
+                  <p>Tailored curtain designs crafted to reflect your personal style.</p>
                 </div>
               </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="services-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="services-icon">
-                  <i class="bi bi-command"></i>
+                  <i class="bi bi-layers"></i>
                 </div>
                 <div>
-                  <h3>Technology</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                  <h3>Premium Fabrics</h3>
+                  <p>We select only the finest materials for a luxurious, lasting finish.</p>
                 </div>
               </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="services-item" data-aos="fade-up" data-aos-delay="200">
                 <div class="services-icon">
-                  <i class="bi bi-grid"></i>
+                  <i class="bi bi-tools"></i>
                 </div>
                 <div>
-                  <h3>Brilliant Ideas</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                  <h3>Expert Craftsmanship</h3>
+                  <p>Meticulous attention to detail in every stitch and finish.</p>
                 </div>
               </div>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-6">
               <div class="services-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="services-icon">
-                  <i class="bi bi-globe"></i>
+                  <i class="bi bi-check2-circle"></i>
                 </div>
                 <div>
-                  <h3>Blueprint</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast</p>
+                  <h3>Professional Installation</h3>
+                  <p>Ensuring a flawless fit and elegant presentation every time.</p>
                 </div>
               </div>
             </div>
@@ -475,57 +473,56 @@
 <!-- Pricing Section -->
   <section id="pricing" class="pricing section light-background">
     <div class="container section-title" data-aos="fade-up">
-      <p>Plans</p>
-      <h2>Pricing Table</h2>
+      <p>Our Packages</p>
+      <h2>Curtain Solutions for Your Home</h2>
     </div>
     <div class="container">
       <div class="row gy-4">
+        <!-- Free Consultation Package -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="pricing-item">
-            <h3>Free</h3>
-            <h4><sup>$</sup>0<span> / month</span></h4>
+            <h3>Free Consultation</h3>
+            <h4><sup>$</sup>0</h4>
             <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li class="na">Pharetra massa</li>
-              <li class="na">Massa ultricies mi</li>
+              <li>Online consultation</li>
+              <li>Virtual home assessment</li>
+              <li>No obligation</li>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Buy Now</a>
+              <a href="#" class="btn-buy">Book Now</a>
             </div>
           </div>
         </div>
+        <!-- Standard Package -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="pricing-item recommended">
-            <span class="recommended-badge">Recommended</span>
-            <h3>Business</h3>
-            <h4><sup>$</sup>19<span> / month</span></h4>
+            <span class="recommended-badge">Most Popular</span>
+            <h3>Standard Package</h3>
+            <h4><sup>$</sup>999<span> One-time</span></h4>
             <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li>Pharetra massa</li>
-              <li class="na">Massa ultricies mi</li>
+              <li>In-home measurement & consultation</li>
+              <li>Customized design plan</li>
+              <li>Standard fabric & installation</li>
+              <li>2-week project timeline</li>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Buy Now</a>
+              <a href="#" class="btn-buy">Get Started</a>
             </div>
           </div>
         </div>
+        <!-- Premium Package -->
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="pricing-item">
-            <h3>Developer</h3>
-            <h4><sup>$</sup>29<span> / month</span></h4>
+            <h3>Premium Package</h3>
+            <h4><sup>$</sup>1499<span> One-time</span></h4>
             <ul>
-              <li>Aida dere</li>
-              <li>Nec feugiat nisl</li>
-              <li>Nulla at volutpat dola</li>
-              <li>Pharetra massa</li>
-              <li>Massa ultricies mi</li>
+              <li>All Standard features plus:</li>
+              <li>Premium fabric selection</li>
+              <li>Advanced customization options</li>
+              <li>Extended warranty & support</li>
             </ul>
             <div class="btn-wrap">
-              <a href="#" class="btn-buy">Buy Now</a>
+              <a href="#" class="btn-buy">Get Started</a>
             </div>
           </div>
         </div>
@@ -537,49 +534,49 @@
 <!-- Faq Section -->
   <section id="faq" class="faq section">
     <div class="container section-title" data-aos="fade-up">
-      <p>Plans</p>
+      <p>Support</p>
       <h2>Frequently Asked Questions</h2>
     </div>
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-12">
           <div class="custom-accordion" id="accordion-faq">
+            <!-- FAQ Item 1 -->
             <div class="accordion-item">
               <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                  How to download and register?
+                  How do I schedule an online consultation?
                 </button>
               </h2>
               <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
                 <div class="accordion-body">
-                  Far far away, behind the word mountains, far from the countries
-                  Vokalia and Consonantia, there live the blind texts. Separated
-                  they live in Bookmarksgrove right at the coast of the Semantics,
-                  a large language ocean.
+                  Simply click the "Book Now" button on our Consultation package page and fill out the form to schedule your free online consultation with our experts.
                 </div>
               </div>
             </div>
+            <!-- FAQ Item 2 -->
             <div class="accordion-item">
               <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2">
-                  How to create your paypal account?
+                  What customization options do you offer?
                 </button>
               </h2>
               <div id="collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
                 <div class="accordion-body">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                  We offer a range of customization options including fabric selection, design modifications, and personalized measurements to ensure your curtains perfectly complement your space.
                 </div>
               </div>
             </div>
+            <!-- FAQ Item 3 -->
             <div class="accordion-item">
               <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                  How to link your paypal and bank account?
+                  How long does the installation process take?
                 </button>
               </h2>
               <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
                 <div class="accordion-body">
-                  When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.
+                  Our expert team ensures a seamless installation, typically completing the process within a day while maintaining the highest standards of quality.
                 </div>
               </div>
             </div>
@@ -590,11 +587,12 @@
   </section>
 <!-- /Faq Section -->
 
+
 <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section">
     <div class="container section-title" data-aos="fade-up">
-      <p>Happy Customers</p>
-      <h2>Testimonials</h2>
+      <p>Satisfied Clients</p>
+      <h2>What Our Clients Say</h2>
     </div>
     <div class="container" data-aos="fade-up">
       <div class="row justify-content-center">
@@ -629,14 +627,12 @@
               <div class="swiper-slide">
                 <div class="testimonial mx-auto">
                   <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" alt="Image" class="img-fluid">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" alt="Sarah Thompson" class="img-fluid">
                   </figure>
-                  <h3 class="name">Adam Aderson</h3>
+                  <h3 class="name">Sarah Thompson</h3>
                   <blockquote>
                     <p>
-                      “There live the blind texts. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a large
-                      language ocean.”
+                      "On Curtain transformed my living room with beautifully crafted drapes. Their attention to detail and exceptional service exceeded my expectations."
                     </p>
                   </blockquote>
                 </div>
@@ -644,14 +640,12 @@
               <div class="swiper-slide">
                 <div class="testimonial mx-auto">
                   <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" alt="Image" class="img-fluid">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" alt="James Rodriguez" class="img-fluid">
                   </figure>
-                  <h3 class="name">Lukas Devlin</h3>
+                  <h3 class="name">James Rodriguez</h3>
                   <blockquote>
                     <p>
-                      “There live the blind texts. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a large
-                      language ocean.”
+                      "The entire experience—from consultation to installation—was flawless. Thanks to On Curtain, my home now exudes premium elegance."
                     </p>
                   </blockquote>
                 </div>
@@ -659,14 +653,12 @@
               <div class="swiper-slide">
                 <div class="testimonial mx-auto">
                   <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" alt="Image" class="img-fluid">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" alt="Emily Johnson" class="img-fluid">
                   </figure>
-                  <h3 class="name">Kayla Bryant</h3>
+                  <h3 class="name">Emily Johnson</h3>
                   <blockquote>
                     <p>
-                      “There live the blind texts. Separated they live in
-                      Bookmarksgrove right at the coast of the Semantics, a large
-                      language ocean.”
+                      "I am absolutely delighted with my custom curtains. They add an elegant touch to my home, and the process was seamless and professional."
                     </p>
                   </blockquote>
                 </div>
