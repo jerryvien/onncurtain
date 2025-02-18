@@ -9,7 +9,7 @@
             On Curtain is your destination for bespoke window treatments. We combine premium materials with innovative design to transform your space into an elegant haven.
           </p>
           <p class="mb-0">
-            <a href="#" class="btn-learn-more">Learn more</a>
+            <a href="about.php" class="btn-learn-more">Learn more</a>
           </p>
         </div>
       </div>
@@ -17,14 +17,14 @@
         <div class="widget">
           <h3 class="widget-heading">Navigation</h3>
           <ul class="list-unstyled float-start me-5">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
           </ul>
           <ul class="list-unstyled float-start">
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -34,11 +34,11 @@
           <ul class="list-unstyled footer-blog-entry">
             <li>
               <span class="d-block date">October 10, 2023</span>
-              <a href="#">Modern Drapery Trends</a>
+              <a href="blog.php">Modern Drapery Trends</a>
             </li>
             <li>
               <span class="d-block date">September 25, 2023</span>
-              <a href="#">Transform Your Living Space</a>
+              <a href="blog.php">Transform Your Living Space</a>
             </li>
           </ul>
         </div>
@@ -47,11 +47,11 @@
         <div class="widget">
           <h3 class="widget-heading">Connect</h3>
           <ul class="list-unstyled social-icons light mb-3">
-            <li><a href="#"><span class="bi bi-facebook"></span></a></li>
-            <li><a href="#"><span class="bi bi-twitter-x"></span></a></li>
-            <li><a href="#"><span class="bi bi-linkedin"></span></a></li>
-            <li><a href="#"><span class="bi bi-instagram"></span></a></li>
-            <li><a href="#"><span class="bi bi-pinterest"></span></a></li>
+            <li><a href="facebook.php"><span class="bi bi-facebook"></span></a></li>
+            <li><a href="twitter.php"><span class="bi bi-twitter-x"></span></a></li>
+            <li><a href="linkedin.php"><span class="bi bi-linkedin"></span></a></li>
+            <li><a href="instagram.php"><span class="bi bi-instagram"></span></a></li>
+            <li><a href="pinterest.php"><span class="bi bi-pinterest"></span></a></li>
           </ul>
         </div>
         <div class="widget">
@@ -77,7 +77,7 @@
     <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">On Curtain</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        Designed by <a href="#">On Curtain Team</a>
+        Designed by <a href="team.php">On Curtain Team</a>
       </div>
     </div>
   </div>
