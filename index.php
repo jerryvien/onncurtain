@@ -356,7 +356,40 @@
                 }
               }
             </script>
-            
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_1.jpg" alt="Elegant Curtain Collections" class="img-fluid">
+                <div class="p-4">
+                  <h3 class="text-black h5 mb-3">Elegant Curtain Collections</h3>
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <p>
+                        Explore our range of custom curtain designs that marry modern trends with classic sophistication.
+                      </p>
+                      <p>
+                        Each collection is meticulously crafted to enhance your space with refined elegance.
+                      </p>
+                    </div>
+                    <div class="col-lg-4">
+                      <ul class="list-unstyled list-check">
+                        <li>Tailored Solutions</li>
+                        <li>Premium Materials</li>
+                        <li>Expert Craftsmanship</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_2.jpg" alt="Luxury Drapes" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_3.jpg" alt="Custom Window Treatments" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_4.jpg" alt="Bespoke Curtain Styles" class="img-fluid">
+              </div>
+            </div>
           </div>
         </div>
       </div>
