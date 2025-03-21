@@ -28,25 +28,32 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body class="index-page">
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-    <a href="index.php" class="logo d-flex align-items-center" style="display: flex; align-items: center;">
-        <!-- Logo with inline CSS -->
-        <img src="assets/img/ONNLOGO.png" alt="Logo" 
-            style="width: 150px; height: auto; max-height: 100%; object-fit: contain;">
-    </a>
+  <header id="header" class="header d-flex align-items-center sticky-top"
+      style="height: 60px; padding: 10px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+          
+          <!-- Logo -->
+          <a href="index.php" class="logo d-flex align-items-center"
+              style="display: flex; align-items: center; height: 100%;">
+              <img src="assets/img/ONNLOGO.png" alt="Logo" 
+                  style="height: 100%; max-height: 100px; width: auto; object-fit: contain;">
+          </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.php" class="active">Home</a></li>
-          <li><a href="about.php">About</a></li>
-          <li><a href="services.php">Services</a></li>
-          <li><a href="portfolio.php">Portfolio</a></li>
-          <li><a href="blog.php">Blog</a></li>
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-    </div>
+          <!-- Navigation Menu -->
+          <nav id="navmenu" class="navmenu"
+              style="display: flex; align-items: center; font-size: 14px;">
+              <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
+                  <li style="margin: 0 10px;"><a href="index.php" class="active" style="padding: 8px 12px;">Home</a></li>
+                  <li style="margin: 0 10px;"><a href="about.php" style="padding: 8px 12px;">About</a></li>
+                  <li style="margin: 0 10px;"><a href="services.php" style="padding: 8px 12px;">Services</a></li>
+                  <li style="margin: 0 10px;"><a href="portfolio.php" style="padding: 8px 12px;">Portfolio</a></li>
+                  <li style="margin: 0 10px;"><a href="blog.php" style="padding: 8px 12px;">Blog</a></li>
+                  <li style="margin: 0 10px;"><a href="contact.php" style="padding: 8px 12px;">Contact</a></li>
+              </ul>
+              <i class="mobile-nav-toggle d-xl-none bi bi-list" style="font-size: 20px;"></i>
+          </nav>
+      </div>
   </header>
+
+
 <!-- End Header -->
