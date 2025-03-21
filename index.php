@@ -3,6 +3,28 @@
 
 <main class="main">
 
+<!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-md-start" data-aos="fade-up">
+            <h2>ELEVATING YOUR INTERIORS WITH EXQUISITE CURTAIN DESIGNS</h2>
+            <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#about" class="cta-btn">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+<!-- /Hero Section -->
+
+
 <!-- About Section -->
 <section id="about" class="about section">
   <div class="container">
@@ -53,9 +75,6 @@
         <h1 class="mb-4" data-aos="fade-up">
           Elevating Your Interiors with Exquisite Curtain Designs
         </h1>
-        <p data-aos="fade-up">
-          At On Curtain, we are passionate about transforming spaces with our premium curtain solutions. Though our company is young—just 3 to 4 years in business—our expertise runs deep. Our dedicated designer and seasoned sales director each bring over 10 years of industry experience, ensuring that every product we offer blends innovative design with exceptional quality.
-        </p>
         <p class="mt-5" data-aos="fade-up">
           <a href="#" class="btn btn-get-started">Discover Our Collection</a>
         </p>
@@ -130,7 +149,7 @@
       <div class="col-lg-3">
         <div class="services-item" data-aos="fade-up" data-aos-delay="200">
           <div class="services-icon"
-            <i class="bi bi-bar-chart"></i>
+            <i> class="bi bi-bar-chart"></i>
           </div>
           <div>
             <h3>Expert Installation</h3>
