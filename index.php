@@ -129,7 +129,7 @@
       </div>
       <div class="col-lg-3">
         <div class="services-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="services-icon">
+          <div class="services-icon"
             <i class="bi bi-bar-chart"></i>
           </div>
           <div>
