@@ -40,12 +40,6 @@
             <div class="swiper-slide">
               <img src="assets/img/minimalistic-living-room-design.jpg" alt="Curtain Design" class="img-fluid">
             </div>
-            <div class="swiper-slide">
-              <img src="assets/img/img_h_7.jpg" alt="Curtain Display" class="img-fluid">
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/img_h_8.jpg" alt="Elegant Curtains" class="img-fluid">
-            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
