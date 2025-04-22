@@ -51,10 +51,62 @@
   }
   .slider .nav.prev { left: 10px; }
   .slider .nav.next { right: 10px; }
+
+  /* add to your existing slider CSS */
+.slider-mask {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.slider-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 10%;
+  pointer-events: none;
+}
+
+.slider-overlay small,
+.slider-overlay h1,
+.slider-overlay h2 {
+  color: #fff;
+  margin: 0;
+}
+.slider-overlay small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: .5em;
+  font-size: .9rem;
+}
+.slider-overlay h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.slider-overlay h2 {
+  font-size: 1.5rem;
+  margin-top: .5em;
+}
+
 </style>
 
 <!-- put this in your existing <body> where you want the slider -->
 <section class="slider">
+  <!-- inside your existing <section class="slider">…</section>, insert: -->
+<div class="slider-mask"></div>
+<div class="slider-overlay">
+  <small>We Are Baagus</small>
+  <h1>Crafting moods, elevating interiors, personalizing spaces.</h1>
+  <h2>Curtains | Sheers | Blinds | Wallpaper</h2>
+</div>
+
   <div class="slide active">
     <img src="/assets/img/1-28399422.jpg" alt="Slide 1">
   </div>
