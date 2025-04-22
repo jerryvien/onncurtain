@@ -316,25 +316,25 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="row g-3">
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/curtain.jpg" alt="Curtains">
+              <img src="assets/img/curtain.png" alt="Curtains">
               <div class="label">Curtains</div>
             </a>
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/blind.jpg" alt="Blinds">
+              <img src="assets/img/blind.png" alt="Blinds">
               <div class="label">Blinds</div>
             </a>
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/wallpaper.jpg" alt="Wallpaper">
+              <img src="assets/img/wallpaper.png" alt="Wallpaper">
               <div class="label">Wallpaper</div>
             </a>
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/Sheer.jpg" alt="Sheer">
+              <img src="assets/img/Sheer.png" alt="Sheer">
               <div class="label">Accessories</div>
             </a>
           </div>
