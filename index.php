@@ -95,25 +95,32 @@
   margin-top: .5em;
 }
 
-#categoryCarousel .carousel-item .category-card {
-    overflow: hidden;
-    border-radius: .5rem;
-    position: relative;
+/* center & constrain the carousel */
+.category-carousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  #categoryCarousel .category-card img {
+  /* make each card perfectly square */
+  .category-card {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    border-radius: 0.5rem;
+  }
+  .category-card img {
     width: 100%;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
     display: block;
   }
-  #categoryCarousel .category-card .label {
+  .category-card .label {
     position: absolute;
     bottom: 1rem;
     left: 1rem;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
-    mix-blend-mode: difference;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
   }
 
 </style>
@@ -301,49 +308,51 @@ document.addEventListener('DOMContentLoaded', () => {
 <!-- /Stats Section -->
 
 <!-- 2) Insert this where you want the carousel -->
-<div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <!-- slide #1 -->
-    <div class="carousel-item active">
-      <div class="row g-3">
-        <div class="col-6 col-md-4">
-          <a href="/site/curtains" class="category-card d-block">
-            <img src="assets/img/curtains.jpg" alt="Curtains">
-            <div class="label">Curtains</div>
-          </a>
-        </div>
-        <div class="col-6 col-md-4">
-          <a href="/site/blinds" class="category-card d-block">
-            <img src="assets/img/blinds.jpg" alt="Blinds">
-            <div class="label">Blinds</div>
-          </a>
-        </div>
-        <div class="col-6 col-md-4 d-none d-md-block">
-          <a href="/site/wallpaper" class="category-card d-block">
-            <img src="assets/img/wallpaper.jpg" alt="Wallpaper">
-            <div class="label">Wallpaper</div>
-          </a>
+<div class="container category-carousel-container my-5">
+  <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide #1 with 4 items -->
+      <div class="carousel-item active">
+        <div class="row g-3">
+          <div class="col-6 col-sm-3">
+            <a href="#" class="category-card">
+              <img src="assets/img/curtains.jpg" alt="Curtains">
+              <div class="label">Curtains</div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-3">
+            <a href="#" class="category-card">
+              <img src="assets/img/blinds.jpg" alt="Blinds">
+              <div class="label">Blinds</div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-3">
+            <a href="#" class="category-card">
+              <img src="assets/img/wallpaper.jpg" alt="Wallpaper">
+              <div class="label">Wallpaper</div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-3">
+            <a href="#" class="category-card">
+              <img src="assets/img/accessories.jpg" alt="Accessories">
+              <div class="label">Accessories</div>
+            </a>
+          </div>
         </div>
       </div>
+      <!-- You can duplicate .carousel-item for Slide #2, #3, etc. -->
     </div>
 
-    <!-- slide #2 (duplicate structure for more categories) -->
-    <div class="carousel-item">
-      <div class="row g-3">
-        <!-- repeat .col > .category-card as above -->
-      </div>
-    </div>
+    <!-- Prev/Next controls -->
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#categoryCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#categoryCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
-
-  <!-- prev/next controls -->
-  <button class="carousel-control-prev" type="button"
-          data-bs-target="#categoryCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button"
-          data-bs-target="#categoryCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
 </div>
 <!-- /Category Carousel -->
 
