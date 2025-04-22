@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Active Bootstrap Template</title>
+  <title>On Curtain</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -35,7 +35,7 @@
           <!-- Logo -->
           <a href="index.php" class="logo d-flex align-items-center"
               style="display: flex; align-items: center; height: 100%;">
-              <img src="assets/img/ONNLOGO.png" alt="Logo" 
+              <img src="/assets/img/9c0d8d95-5e7c-4a90-ade4-51f496beb3af.png" alt="Logo" 
                   style="height: 100%; max-height: 100px; width: auto; object-fit: contain;">
           </a>
 
