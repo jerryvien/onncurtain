@@ -334,8 +334,8 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/Sheer.png" alt="Sheer">
-              <div class="label">Accessories</div>
+              <img src="assets/img/sheer.png" alt="Sheer">
+              <div class="label">Sheer</div>
             </a>
           </div>
         </div>
