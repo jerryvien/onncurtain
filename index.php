@@ -3,92 +3,95 @@
 
 <main class="main">
 
-  <style>
-    /* Slider container spans the full viewport width */
-    .slider {
-      position: relative;
-      width: 100vw;
-      height: 500px;         /* adjust height as needed */
-      overflow: hidden;
-      margin: 0;             /* remove default body margin */
-      padding: 0;
+<!-- put this in your existing <head> (or a linked CSS) -->
+<style>
+  /* full‐page slider container */
+  .slider {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* each slide stacked & hidden by default */
+  .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slider .slide.active {
+    opacity: 1;
+  }
+
+  /* image covers full slide */
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* optional nav buttons */
+  .slider .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  .slider .nav.prev { left: 10px; }
+  .slider .nav.next { right: 10px; }
+</style>
+
+<!-- put this in your existing <body> where you want the slider -->
+<section class="slider">
+  <div class="slide active">
+    <img src="slide1.jpg" alt="Slide 1">
+  </div>
+  <div class="slide">
+    <img src="slide2.jpg" alt="Slide 2">
+  </div>
+  <div class="slide">
+    <img src="slide3.jpg" alt="Slide 3">
+  </div>
+
+  <!-- optional prev/next -->
+  <button class="nav prev">&larr;</button>
+  <button class="nav next">&rarr;</button>
+</section>
+
+<!-- put this at the end of your <body> (or in your bundle) -->
+<script>
+  (function() {
+    const slides = document.querySelectorAll('.slider .slide');
+    const prev  = document.querySelector('.slider .prev');
+    const next  = document.querySelector('.slider .next');
+    let current = 0, total = slides.length;
+
+    function goTo(n) {
+      slides[current].classList.remove('active');
+      current = (n + total) % total;
+      slides[current].classList.add('active');
     }
 
-    /* Each slide is stacked, but hidden by default */
-    .slider .slide {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-    }
-    .slider .slide.active {
-      opacity: 1;
-    }
+    prev.addEventListener('click', () => goTo(current - 1));
+    next.addEventListener('click', () => goTo(current + 1));
 
-    /* Image covers the entire slide area */
-    .slider img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
+    // auto‐advance every 5s
+    setInterval(() => goTo(current + 1), 5000);
+  })();
+</script>
 
-    /* Optional: navigation buttons */
-    .slider .nav {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background: rgba(0,0,0,0.4);
-      color: #fff;
-      border: none;
-      padding: 0.5em 1em;
-      cursor: pointer;
-      font-size: 1.2em;
-    }
-    .slider .nav.prev { left: 10px; }
-    .slider .nav.next { right: 10px; }
-  </style>
-
-  <section class="slider">
-    <div class="slide active">
-      <img src="slide1.jpg" alt="Slide 1"/>
-    </div>
-    <div class="slide">
-      <img src="slide2.jpg" alt="Slide 2"/>
-    </div>
-    <div class="slide">
-      <img src="slide3.jpg" alt="Slide 3"/>
-    </div>
-
-    <!-- Optional Previous/Next buttons -->
-    <button class="nav prev">&larr;</button>
-    <button class="nav next">&rarr;</button>
-  </section>
-
-  <script>
-    (function() {
-      const slides = document.querySelectorAll('.slider .slide');
-      const prevBtn = document.querySelector('.slider .prev');
-      const nextBtn = document.querySelector('.slider .next');
-      let current = 0;
-      const total = slides.length;
-
-      function goToSlide(n) {
-        slides[current].classList.remove('active');
-        current = (n + total) % total;
-        slides[current].classList.add('active');
-      }
-
-      prevBtn.addEventListener('click', () => goToSlide(current - 1));
-      nextBtn.addEventListener('click', () => goToSlide(current + 1));
-
-      // Auto‑advance every 5 seconds
-      setInterval(() => goToSlide(current + 1), 5000);
-    })();
-  </script>
 
 
 
