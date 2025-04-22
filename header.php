@@ -28,27 +28,17 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body class="index-page">
- <!-- add this in your <head> or main stylesheet -->
-<style>
-  /* only resize the logo so it always fits inside the header bar */
-  #header .logo img {
-    max-height: 60px;  /* ≤ your header’s content‐height */
-    width: auto;       /* keep aspect ratio */
-    object-fit: contain;
-  }
-</style>
+  <header id="header" class="header d-flex align-items-center sticky-top"
+      style="height: 60px; padding: 10px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+          
+          <!-- Logo -->
+          <a href="index.php" class="logo d-flex align-items-center"
+              style="display: flex; align-items: center; height: 100%;">
+              <img src="/assets/img/9c0d8d95-5e7c-4a90-ade4-51f496beb3af.png" alt="Logo" 
+                  style="height: 100%; max-height: 100px; width: auto; object-fit: contain;">
+          </a>
 
-    <header id="header" class="header d-flex align-items-center sticky-top"
-            style="height: 60px; padding: 10px 0; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-            
-            <!-- Logo: drop any inline height/max‐height here -->
-            <a href="index.php" class="logo d-flex align-items-center">
-            <img src="/assets/img/9c0d8d95-5e7c-4a90-ade4-51f496beb3af.png" alt="Logo">
-            </a>
-
-            <!-- …your menu items, centered by align-items-center on the header… -->
-        </div>
           <!-- Navigation Menu -->
           <nav id="navmenu" class="navmenu"
               style="display: flex; align-items: center; font-size: 14px;">
