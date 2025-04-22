@@ -316,13 +316,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="row g-3">
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/curtains.jpg" alt="Curtains">
+              <img src="assets/img/curtain.jpg" alt="Curtains">
               <div class="label">Curtains</div>
             </a>
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/blinds.jpg" alt="Blinds">
+              <img src="assets/img/blind.jpg" alt="Blinds">
               <div class="label">Blinds</div>
             </a>
           </div>
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="col-6 col-sm-3">
             <a href="#" class="category-card">
-              <img src="assets/img/accessories.jpg" alt="Accessories">
+              <img src="assets/img/Sheer.jpg" alt="Sheer">
               <div class="label">Accessories</div>
             </a>
           </div>
@@ -507,90 +507,6 @@ document.addEventListener('DOMContentLoaded', () => {
   </section>
 <!-- /Faq Section -->
 
-
-<!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials section">
-    <div class="container section-title" data-aos="fade-up">
-      <p>Satisfied Clients</p>
-      <h2>What Our Clients Say</h2>
-    </div>
-    <div class="container" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-lg-7">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 1
-                  }
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial mx-auto">
-                  <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" alt="Sarah Thompson" class="img-fluid">
-                  </figure>
-                  <h3 class="name">Sarah Thompson</h3>
-                  <blockquote>
-                    <p>
-                      "On Curtain transformed my living room with beautifully crafted drapes. Their attention to detail and exceptional service exceeded my expectations."
-                    </p>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial mx-auto">
-                  <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" alt="James Rodriguez" class="img-fluid">
-                  </figure>
-                  <h3 class="name">James Rodriguez</h3>
-                  <blockquote>
-                    <p>
-                      "The entire experience—from consultation to installation—was flawless. Thanks to On Curtain, my home now exudes premium elegance."
-                    </p>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial mx-auto">
-                  <figure class="img-wrap">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" alt="Emily Johnson" class="img-fluid">
-                  </figure>
-                  <h3 class="name">Emily Johnson</h3>
-                  <blockquote>
-                    <p>
-                      "I am absolutely delighted with my custom curtains. They add an elegant touch to my home, and the process was seamless and professional."
-                    </p>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- /Testimonials Section -->
 
 </main>
 
