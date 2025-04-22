@@ -3,12 +3,6 @@
 
 <main class="main">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Full‑Width Slider</title>
   <style>
     /* Slider container spans the full viewport width */
     .slider {
@@ -57,8 +51,6 @@
     .slider .nav.prev { left: 10px; }
     .slider .nav.next { right: 10px; }
   </style>
-</head>
-<body>
 
   <section class="slider">
     <div class="slide active">
@@ -98,8 +90,6 @@
     })();
   </script>
 
-</body>
-</html>
 
 
 
