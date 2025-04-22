@@ -254,8 +254,8 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
       <div class="col-lg-3">
         <div class="services-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="services-icon"
-            <i> class="bi bi-bar-chart"></i>
+          <div class="services-icon">
+            <i class="bi bi-bar-chart"></i>
           </div>
           <div>
             <h3>Expert Installation</h3>
@@ -267,45 +267,6 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </section>
 <!-- /Services Section -->
-
-
-<!-- Stats Section -->
-<section id="stats" class="stats section light-background">
-  <div class="container">
-    <div class="row gy-4 justify-content-center">
-      <div class="col-lg-5">
-        <div class="images-overlap">
-          <img src="/assets/img/1-0116a3fb.jpeg" alt="Elegant Curtain Showcase" class="img-fluid img-1" data-aos="fade-up">
-        </div>
-      </div>
-      <div class="col-lg-4 ps-lg-5">
-        <span class="content-subtitle">Why Choose On Curtain</span>
-        <h2 class="content-title">Crafting Elegance in Every Detail</h2>
-        <p class="lead">
-          At On Curtain, every curtain is a blend of art and precision. Our commitment to quality and bespoke design transforms each space into an elegant retreat.
-        </p>
-        <p class="mb-5">
-          We pride ourselves on meticulous craftsmanship and a passion for creating stunning window treatments that enhance your home’s beauty.
-        </p>
-        <div class="row mb-5 count-numbers">
-          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
-            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter number"></span>
-            <span class="d-block">Happy Clients</span>
-          </div>
-          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
-            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1" class="purecounter number"></span>
-            <span class="d-block">Unique Designs</span>
-          </div>
-          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
-            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="480" data-purecounter-duration="1" class="purecounter number"></span>
-            <span class="d-block">Projects Completed</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /Stats Section -->
 
 <!-- 2) Insert this where you want the carousel -->
 <div class="container category-carousel-container my-5">
@@ -355,6 +316,46 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </div>
 <!-- /Category Carousel -->
+
+<!-- Stats Section -->
+<section id="stats" class="stats section light-background">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-5">
+        <div class="images-overlap">
+          <img src="/assets/img/1-0116a3fb.jpeg" alt="Elegant Curtain Showcase" class="img-fluid img-1" data-aos="fade-up">
+        </div>
+      </div>
+      <div class="col-lg-4 ps-lg-5">
+        <span class="content-subtitle">Why Choose On Curtain</span>
+        <h2 class="content-title">Crafting Elegance in Every Detail</h2>
+        <p class="lead">
+          At On Curtain, every curtain is a blend of art and precision. Our commitment to quality and bespoke design transforms each space into an elegant retreat.
+        </p>
+        <p class="mb-5">
+          We pride ourselves on meticulous craftsmanship and a passion for creating stunning window treatments that enhance your home’s beauty.
+        </p>
+        <div class="row mb-5 count-numbers">
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="100">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Happy Clients</span>
+          </div>
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="200">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Unique Designs</span>
+          </div>
+          <div class="col-4 counter" data-aos="fade-up" data-aos-delay="300">
+            <span data-purecounter-separator="true" data-purecounter-start="0" data-purecounter-end="480" data-purecounter-duration="1" class="purecounter number"></span>
+            <span class="d-block">Projects Completed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Stats Section -->
+
+
 
 
 <!-- Blog Posts Section -->
