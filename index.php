@@ -103,7 +103,8 @@
 <div class="slider-mask"></div>
 <div class="slider-overlay">
   <small>We Are On Curtain</small>
-  <h1>Creating ambiance, uplifting interiors, and making spaces truly your own.</h1>
+  <h1>Creating ambiance, uplifting interiors, 
+    and making spaces truly yours.</h1>
   <h2>Curtains | Sheers | Blinds | Wallpaper</h2>
 </div>
 
@@ -117,9 +118,7 @@
     <img src="/assets/img/3-28399422.jpg" alt="Slide 3">
   </div>
 
-  <!-- optional prev/next -->
-  <button class="nav prev">&larr;</button>
-  <button class="nav next">&rarr;</button>
+
 </section>
 
 <!-- put this at the end of your <body> (or in your bundle) -->
