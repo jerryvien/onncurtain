@@ -56,13 +56,13 @@
 <!-- put this in your existing <body> where you want the slider -->
 <section class="slider">
   <div class="slide active">
-    <img src="jerryvien/onncurtain/assets/img/man-cua-mau-hong-dep.webp" alt="Slide 1">
+    <img src="/assets/img/1-28399422.jpg" alt="Slide 1">
   </div>
   <div class="slide">
-    <img src="jerryvien/onncurtain/assets/img/rem-voan-sang-trong.webp" alt="Slide 2">
+    <img src="/assets/img/2-28399422.jpg" alt="Slide 2">
   </div>
   <div class="slide">
-    <img src="slide3.jpg" alt="Slide 3">
+    <img src="/assets/img/3-28399422.jpg" alt="Slide 3">
   </div>
 
   <!-- optional prev/next -->
@@ -91,11 +91,6 @@
     setInterval(() => goTo(current + 1), 5000);
   })();
 </script>
-
-
-
-
-
 
 <!-- About Section -->
 <section id="about" class="about section">
