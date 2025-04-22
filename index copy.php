@@ -95,27 +95,6 @@
   margin-top: .5em;
 }
 
-#categoryCarousel .carousel-item .category-card {
-    overflow: hidden;
-    border-radius: .5rem;
-    position: relative;
-  }
-  #categoryCarousel .category-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-  }
-  #categoryCarousel .category-card .label {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    mix-blend-mode: difference;
-  }
-
 </style>
 
 <!-- put this in your existing <body> where you want the slider -->
@@ -219,6 +198,42 @@ document.addEventListener('DOMContentLoaded', () => {
 </section>
 <!-- /About Section -->
 
+
+<!-- About 2 Section -->
+<section id="about-2" class="about-2 section light-background">
+  <div class="container">
+    <div class="content">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
+          <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
+            <div class="img">
+              <img src="assets/img/img_v_3.jpg" alt="Elegant Curtain Display" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+          <div class="px-3">
+            <span class="content-subtitle">Our Mission</span>
+            <h2 class="content-title text-start">
+              Bringing Elegance and Functionality to Every Home
+            </h2>
+            <p class="lead">
+              At On Curtain, our mission is to transform your living spaces with exquisitely designed curtains that blend beauty and practicality.
+            </p>
+            <p class="mb-5">
+              Our team, led by a visionary designer and an experienced sales director, fuses creativity with deep industry insight to craft bespoke curtain solutions that elevate your space with refined elegance.
+            </p>
+            <p>
+              <a href="#" class="btn-get-started">Explore Our Designs</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /About 2 Section -->
+
 <!-- Services Section -->
 <section id="services" class="services section light-background">
   <div class="container">
@@ -268,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="row gy-4 justify-content-center">
       <div class="col-lg-5">
         <div class="images-overlap">
-          <img src="/assets/img/1-0116a3fb.jpeg" alt="Elegant Curtain Showcase" class="img-fluid img-1" data-aos="fade-up">
+          <img src="assets/img/img_v_1.jpg" alt="Elegant Curtain Showcase" class="img-fluid img-1" data-aos="fade-up">
         </div>
       </div>
       <div class="col-lg-4 ps-lg-5">
@@ -299,53 +314,6 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </section>
 <!-- /Stats Section -->
-
-<!-- 2) Insert this where you want the carousel -->
-<div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <!-- slide #1 -->
-    <div class="carousel-item active">
-      <div class="row g-3">
-        <div class="col-6 col-md-4">
-          <a href="/site/curtains" class="category-card d-block">
-            <img src="assets/img/curtains.jpg" alt="Curtains">
-            <div class="label">Curtains</div>
-          </a>
-        </div>
-        <div class="col-6 col-md-4">
-          <a href="/site/blinds" class="category-card d-block">
-            <img src="assets/img/blinds.jpg" alt="Blinds">
-            <div class="label">Blinds</div>
-          </a>
-        </div>
-        <div class="col-6 col-md-4 d-none d-md-block">
-          <a href="/site/wallpaper" class="category-card d-block">
-            <img src="assets/img/wallpaper.jpg" alt="Wallpaper">
-            <div class="label">Wallpaper</div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- slide #2 (duplicate structure for more categories) -->
-    <div class="carousel-item">
-      <div class="row g-3">
-        <!-- repeat .col > .category-card as above -->
-      </div>
-    </div>
-  </div>
-
-  <!-- prev/next controls -->
-  <button class="carousel-control-prev" type="button"
-          data-bs-target="#categoryCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button"
-          data-bs-target="#categoryCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-<!-- /Category Carousel -->
 
 
 <!-- Blog Posts Section -->
@@ -441,6 +409,260 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   </section>
 <!-- /Blog Posts Section -->
+
+
+<!-- Tabs Section -->
+  <section id="tabs" class="tabs section light-background">
+    <div class="container">
+      <div class="row gap-x-lg-4 justify-content-between">
+        <div class="col-lg-4 js-custom-dots">
+          <a href="#" class="service-item link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
+            <div class="service-icon color-1 mb-4">
+              <i class="bi bi-alarm"></i>
+            </div>
+            <div class="service-contents">
+              <h3>Elegant & Innovative Designs</h3>
+              <p>
+                Experience curtains that blend modern aesthetics with timeless elegance.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="100">
+            <div class="service-icon color-2 mb-4">
+              <i class="bi bi-bag-check"></i>
+            </div>
+            <div class="service-contents">
+              <h3>Premium Quality Fabrics</h3>
+              <p>
+                We select only the finest materials to create luxurious drapes.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="200">
+            <div class="service-icon color-3 mb-4">
+              <i class="bi bi-briefcase"></i>
+            </div>
+            <div class="service-contents">
+              <h3>Bespoke Customization</h3>
+              <p>
+                Tailored curtain solutions to perfectly match your space and style.
+              </p>
+            </div>
+          </a>
+          <a href="#" class="service-item link horizontal d-flex" data-aos="fade-left" data-aos-delay="300">
+            <div class="service-icon color-4 mb-4">
+              <i class="bi bi-easel"></i>
+            </div>
+            <div class="service-contents">
+              <h3>Expert Installation & Service</h3>
+              <p>
+                Our skilled team ensures flawless installation and exceptional care.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-8">
+          <div class="swiper init-swiper-tabs">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoHeight": true,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_1.jpg" alt="Elegant Curtain Collections" class="img-fluid">
+                <div class="p-4">
+                  <h3 class="text-black h5 mb-3">Elegant Curtain Collections</h3>
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <p>
+                        Explore our range of custom curtain designs that marry modern trends with classic sophistication.
+                      </p>
+                      <p>
+                        Each collection is meticulously crafted to enhance your space with refined elegance.
+                      </p>
+                    </div>
+                    <div class="col-lg-4">
+                      <ul class="list-unstyled list-check">
+                        <li>Tailored Solutions</li>
+                        <li>Premium Materials</li>
+                        <li>Expert Craftsmanship</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_2.jpg" alt="Luxury Drapes" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_3.jpg" alt="Custom Window Treatments" class="img-fluid">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/img_h_4.jpg" alt="Bespoke Curtain Styles" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Tabs Section -->
+
+
+<!-- Services 2 Section -->
+  <section id="services-2" class="services-2 section">
+    <div class="container">
+      <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col-md-6 col-lg-4">
+          <span class="content-subtitle">Our Services</span>
+          <h2 class="content-title">
+            Bespoke Curtain Solutions for Every Space
+          </h2>
+          <p class="lead">
+            At On Curtain, we transform your interiors with tailor-made curtain solutions that blend elegance with functionality.
+          </p>
+          <p class="mb-5">
+            Our services cover every aspect—from custom design and premium fabric selection to expert installation—ensuring your home is elevated with refined style.
+          </p>
+          <p>
+            <a href="#" class="btn btn-get-started">Discover Our Services</a>
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-6 ps-lg-5">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="services-item" data-aos="fade-up">
+                <div class="services-icon">
+                  <i class="bi bi-pencil"></i>
+                </div>
+                <div>
+                  <h3>Custom Designs</h3>
+                  <p>Tailored curtain designs crafted to reflect your personal style.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="services-icon">
+                  <i class="bi bi-layers"></i>
+                </div>
+                <div>
+                  <h3>Premium Fabrics</h3>
+                  <p>We select only the finest materials for a luxurious, lasting finish.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="services-icon">
+                  <i class="bi bi-tools"></i>
+                </div>
+                <div>
+                  <h3>Expert Craftsmanship</h3>
+                  <p>Meticulous attention to detail in every stitch and finish.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="services-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="services-icon">
+                  <i class="bi bi-check2-circle"></i>
+                </div>
+                <div>
+                  <h3>Professional Installation</h3>
+                  <p>Ensuring a flawless fit and elegant presentation every time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Services 2 Section -->
+
+<!-- Pricing Section -->
+  <section id="pricing" class="pricing section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <p>Our Packages</p>
+      <h2>Curtain Solutions for Your Home</h2>
+    </div>
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Free Consultation Package -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-item">
+            <h3>Free Consultation</h3>
+            <h4><sup>$</sup>0</h4>
+            <ul>
+              <li>Online consultation</li>
+              <li>Virtual home assessment</li>
+              <li>No obligation</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Standard Package -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-item recommended">
+            <span class="recommended-badge">Most Popular</span>
+            <h3>Standard Package</h3>
+            <h4><sup>$</sup>999<span> One-time</span></h4>
+            <ul>
+              <li>In-home measurement & consultation</li>
+              <li>Customized design plan</li>
+              <li>Standard fabric & installation</li>
+              <li>2-week project timeline</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <!-- Premium Package -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-item">
+            <h3>Premium Package</h3>
+            <h4><sup>$</sup>1499<span> One-time</span></h4>
+            <ul>
+              <li>All Standard features plus:</li>
+              <li>Premium fabric selection</li>
+              <li>Advanced customization options</li>
+              <li>Extended warranty & support</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Pricing Section -->
 
 <!-- Faq Section -->
   <section id="faq" class="faq section">
