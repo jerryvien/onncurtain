@@ -102,8 +102,8 @@
   <!-- inside your existing <section class="slider">…</section>, insert: -->
 <div class="slider-mask"></div>
 <div class="slider-overlay">
-  <small>We Are Baagus</small>
-  <h1>Crafting moods, elevating interiors, personalizing spaces.</h1>
+  <small>We Are On Curtain</small>
+  <h1>Creating ambiance, uplifting interiors, and making spaces truly your own.</h1>
   <h2>Curtains | Sheers | Blinds | Wallpaper</h2>
 </div>
 
@@ -124,25 +124,27 @@
 
 <!-- put this at the end of your <body> (or in your bundle) -->
 <script>
-  (function() {
-    const slides = document.querySelectorAll('.slider .slide');
-    const prev  = document.querySelector('.slider .prev');
-    const next  = document.querySelector('.slider .next');
-    let current = 0, total = slides.length;
+document.addEventListener('DOMContentLoaded', () => {
+  const slider   = document.querySelector('.slider');
+  const slides   = slider.querySelectorAll('.slide');
+  const prevBtn  = slider.querySelector('.nav.prev');
+  const nextBtn  = slider.querySelector('.nav.next');
+  let   current  = 0,
+        total    = slides.length;
 
-    function goTo(n) {
-      slides[current].classList.remove('active');
-      current = (n + total) % total;
-      slides[current].classList.add('active');
-    }
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    current = (n + total) % total;
+    slides[current].classList.add('active');
+  }
 
-    prev.addEventListener('click', () => goTo(current - 1));
-    next.addEventListener('click', () => goTo(current + 1));
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
 
-    // auto‐advance every 5s
-    setInterval(() => goTo(current + 1), 5000);
-  })();
+  setInterval(() => goTo(current + 1), 5000);
+});
 </script>
+
 
 <!-- About Section -->
 <section id="about" class="about section">
