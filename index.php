@@ -370,7 +370,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
             <a href="#" class="thumb d-block">
-<<<<<<< HEAD
               <img src="assets/img/curtain2.png" alt="Innovative Curtain Design" class="img-fluid rounded">
             </a>
             <div class="post-content">
@@ -398,9 +397,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="thumb d-block">
-<<<<<<< HEAD
-              <img src="assets/img/curtain3.png" alt="Perfect Fabric for Curtains" class="img-fluid rounded">
-=======
+              <img src="assets/img/curtain.png" alt="Perfect Fabric for Curtains" class="img-fluid rounded">
+
 
             </a>
             <div class="post-content">
@@ -428,9 +426,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="thumb d-block">
-<<<<<<< HEAD
+
               <img src="assets/img/curtain4.png" alt="Custom Curtains" class="img-fluid rounded">
-=======
             </a>
             <div class="post-content">
               <div class="meta">
