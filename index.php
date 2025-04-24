@@ -370,7 +370,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_4.jpg" alt="Sunlit Sheer Curtain" class="img-fluid rounded">
+<<<<<<< HEAD
+              <img src="assets/img/curtain2.png" alt="Innovative Curtain Design" class="img-fluid rounded">
             </a>
             <div class="post-content">
               <div class="meta">
@@ -383,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-3.jpg" alt="Emily Stone" class="img-fluid rounded-circle">
+                  <img src="assets/img/curtaindesigner.png" alt="Emily Stone" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
                   <strong class="d-block">Emily Stone</strong>
@@ -397,7 +398,10 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_2.jpg" alt="Curtain Fabric Selection" class="img-fluid rounded">
+<<<<<<< HEAD
+              <img src="assets/img/curtain3.png" alt="Perfect Fabric for Curtains" class="img-fluid rounded">
+=======
+
             </a>
             <div class="post-content">
               <div class="meta">
@@ -410,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-2.jpg" alt="Michael Lee" class="img-fluid rounded-circle">
+                  <img src="assets/img/curtaindesigner.png" alt="Michael Lee" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
                   <strong class="d-block">Michael Lee</strong>
@@ -424,7 +428,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_3.jpg" alt="Custom Curtain Drapery" class="img-fluid rounded">
+<<<<<<< HEAD
+              <img src="assets/img/curtain4.png" alt="Custom Curtains" class="img-fluid rounded">
+=======
             </a>
             <div class="post-content">
               <div class="meta">
@@ -437,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
-                  <img src="assets/img/team/team-1.jpg" alt="Sophia Carter" class="img-fluid rounded-circle">
+                  <img src="assets/img/curtaindesigner.png" alt="Sophia Carter" class="img-fluid rounded-circle">
                 </div>
                 <div class="author-name">
                   <strong class="d-block">Sophia Carter</strong>
