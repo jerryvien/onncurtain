@@ -361,8 +361,8 @@ document.addEventListener('DOMContentLoaded', () => {
 <!-- Blog Posts Section -->
   <section id="blog-posts" class="blog-posts section">
     <div class="container section-title" data-aos="fade-up">
-      <p>Latest Inspirations</p>
-      <h2>Design Blog</h2>
+      <p>Sheer & Curtain Inspirations</p>
+      <h2>Curtain & Sheer Blog</h2>
     </div>
     <div class="container">
       <div class="row gy-4">
@@ -370,16 +370,16 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_4.jpg" alt="Innovative Curtain Design" class="img-fluid rounded">
+              <img src="assets/img/img_h_4.jpg" alt="Sunlit Sheer Curtain" class="img-fluid rounded">
             </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Design Trends</a> •
+                <a href="#" class="cat">Sheer Trends</a> •
                 <span class="date">September 15, 2023</span>
               </div>
-              <h3><a href="#">Transform Your Space with Innovative Curtain Designs</a></h3>
+              <h3><a href="#">Brighten Your Room with Sheer Curtains</a></h3>
               <p>
-                Discover how our unique curtain styles bring modern elegance and warmth to any room.
+                Learn how lightweight sheers can filter sunlight beautifully while keeping privacy intact.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="author-name">
                   <strong class="d-block">Emily Stone</strong>
-                  <span class="">Creative Director</span>
+                  <span class="">Curtain Designer</span>
                 </div>
               </div>
             </div>
@@ -397,16 +397,16 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_2.jpg" alt="Perfect Fabric for Curtains" class="img-fluid rounded">
+              <img src="assets/img/img_h_2.jpg" alt="Curtain Fabric Selection" class="img-fluid rounded">
             </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Home Styling</a> •
+                <a href="#" class="cat">Fabric Guide</a> •
                 <span class="date">September 10, 2023</span>
               </div>
-              <h3><a href="#">Choosing the Perfect Fabric for Your Curtains</a></h3>
+              <h3><a href="#">Choosing the Perfect Curtain Fabric</a></h3>
               <p>
-                Learn about premium fabrics and tips to select the ideal material that enhances your décor.
+                From velvet to linen, find the ideal material that complements your décor and light needs.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
@@ -424,16 +424,16 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="col-md-6 col-lg-4">
           <div class="post-entry" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="thumb d-block">
-              <img src="assets/img/img_h_3.jpg" alt="Custom Curtains" class="img-fluid rounded">
+              <img src="assets/img/img_h_3.jpg" alt="Custom Curtain Drapery" class="img-fluid rounded">
             </a>
             <div class="post-content">
               <div class="meta">
-                <a href="#" class="cat">Interior Inspiration</a> •
+                <a href="#" class="cat">Custom Drapery</a> •
                 <span class="date">September 5, 2023</span>
               </div>
-              <h3><a href="#">Elevate Your Interiors with Custom Curtains</a></h3>
+              <h3><a href="#">Tailored Curtains: Style & Function</a></h3>
               <p>
-                Explore the art of custom curtain design and see how tailored solutions transform your living space.
+                Discover how bespoke curtains can transform your space—perfect fit, pattern, and pleat every time.
               </p>
               <div class="d-flex author align-items-center">
                 <div class="pic">
@@ -441,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="author-name">
                   <strong class="d-block">Sophia Carter</strong>
-                  <span class="">Design Consultant</span>
+                  <span class="">Drapery Consultant</span>
                 </div>
               </div>
             </div>
@@ -451,6 +451,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   </section>
 <!-- /Blog Posts Section -->
+
 
 <!-- Faq Section -->
   <section id="faq" class="faq section">
