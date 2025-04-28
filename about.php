@@ -23,7 +23,7 @@
           <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
             <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
               <div class="img">
-                <img src="assets/img/curtain.jpg" alt="Elegant Curtain Display" class="img-fluid">
+                <img src="assets/img/curtain.png" alt="Elegant Curtain Display" class="img-fluid">
               </div>
             </div>
           </div>

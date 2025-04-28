@@ -64,31 +64,7 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": { "delay": 5000 },
-                  "slidesPerView": "auto",
-                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
-                  "breakpoints": { "320": { "slidesPerView": 1, "spaceBetween": 40 }, "1200": { "slidesPerView": 1, "spaceBetween": 1 } }
-                }
-              </script>
-              <div class="swiper-wrapper">
-                <?php include 'testimonials-items.php'; ?>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Testimonials Section -->
+ 
 
   </main>
 
