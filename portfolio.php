@@ -38,8 +38,20 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
 </head>
 <body>
   <?php include 'header.php'; ?>
+  <!-- Page Title -->
+  <div class="page-title light-background">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.php">Home</a></li>
+          <li class="current">Portfolio</li>
+        </ol>
+      </nav>
+    </div>
+  </div><!-- End Page Title -->
   <main class="container py-4">
-    <h1 class="mb-4">Portfolio</h1>
+    
     <?php if(empty($images)): ?>
       <p>No images found in <code>assets/img/portfolio</code>.</p>
     <?php else: ?>
