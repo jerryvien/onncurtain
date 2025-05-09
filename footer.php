@@ -23,23 +23,8 @@
           </ul>
           <ul class="list-unstyled float-start">
             <li><a href="services.php">Services</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="contact.php">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3 pl-lg-5">
-        <div class="widget">
-          <h3 class="widget-heading">Latest Inspirations</h3>
-          <ul class="list-unstyled footer-blog-entry">
-            <li>
-              <span class="d-block date">October 10, 2023</span>
-              <a href="blog.php">Modern Drapery Trends</a>
-            </li>
-            <li>
-              <span class="d-block date">September 25, 2023</span>
-              <a href="blog.php">Transform Your Living Space</a>
-            </li>
           </ul>
         </div>
       </div>
