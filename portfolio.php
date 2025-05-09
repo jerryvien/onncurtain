@@ -56,14 +56,14 @@
         <h1>Portfolio</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="current">Portfolio</li>
           </ol>
         </nav>
       </div>
     </div>
 
-    <!-- Portfolio Section -->
+    <!-- Portfolio Gallery Section -->
     <section id="portfolio" class="portfolio section">
       <div class="container">
         <div class="gallery" id="gallery"></div>
@@ -76,8 +76,9 @@
 
   <!-- Gallery Script -->
   <?php
-    $images = glob(__DIR__ . '/img/*.{jpg,png,gif}', GLOB_BRACE);
-    $webImages = array_map(fn($p) => 'img/' . basename($p), $images);
+    // Fetch all images from img/portfolio directory
+    $images = glob(__DIR__ . '/img/portfolio/*.{jpg,png,gif}', GLOB_BRACE);
+    $webImages = array_map(fn($p) => 'img/portfolio/' . basename($p), $images);
   ?>
   <script>
     const images = <?php echo json_encode($webImages, JSON_UNESCAPED_SLASHES); ?>;
@@ -86,8 +87,10 @@
       const item = document.createElement('div');
       item.className = 'gallery-item';
       item.style.gridColumnEnd = `span ${Math.floor(Math.random()*2)+1}`;
-      item.style.gridRowEnd = `span ${Math.floor(Math.random()*3)+1}`;
-      const img = document.createElement('img'); img.src = src; img.alt = '';
+      item.style.gridRowEnd    = `span ${Math.floor(Math.random()*3)+1}`;
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = '';
       item.appendChild(img);
       gallery.appendChild(item);
     });
@@ -95,11 +98,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/js/main.js"></script>
