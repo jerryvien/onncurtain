@@ -54,6 +54,7 @@
                   <li style="margin: 0 10px;"><a href="index.php" class="active" style="padding: 8px 12px;">Home</a></li>
                   <li style="margin: 0 10px;"><a href="about.php" style="padding: 8px 12px;">About</a></li>
                   <li style="margin: 0 10px;"><a href="services.php" style="padding: 8px 12px;">Services</a></li>
+                  <li style="margin: 0 10px;"><a href="portfolio.php" style="padding: 8px 12px;">Portfolio</a></li>
                   <li style="margin: 0 10px;"><a href="contact.php" style="padding: 8px 12px;">Contact</a></li>
               </ul>
               <i class="mobile-nav-toggle d-xl-none bi bi-list" style="font-size: 20px;"></i>
