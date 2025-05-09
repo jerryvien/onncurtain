@@ -11,9 +11,7 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Portfolio Showcase</title>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
   <style>
-    /* CSS Columns Masonry Gallery */
     .gallery {
       column-width: 250px;
       column-gap: 15px;
@@ -29,11 +27,36 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
       overflow: hidden;
       background: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
     }
     .gallery-item img {
       width: 100%;
       height: auto;
       display: block;
+    }
+    .lightbox-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .lightbox-overlay.active {
+      visibility: visible;
+      opacity: 1;
+    }
+    .lightbox-overlay img {
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -46,20 +69,29 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
     <?php else: ?>
       <div class="gallery">
         <?php foreach($images as $src): ?>
-          <div class="gallery-item">
-            <a href="<?= htmlspecialchars($src, ENT_QUOTES) ?>" class="glightbox" data-gallery="gallery">
-              <img src="<?= htmlspecialchars($src, ENT_QUOTES) ?>" alt="">
-            </a>
+          <div class="gallery-item" onclick="openLightbox('<?= htmlspecialchars($src, ENT_QUOTES) ?>')">
+            <img src="<?= htmlspecialchars($src, ENT_QUOTES) ?>" alt="">
           </div>
         <?php endforeach; ?>
       </div>
     <?php endif; ?>
   </main>
+  <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
   <?php include 'footer.php'; ?>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   <script>
-    const lightbox = GLightbox({ selector: '.glightbox' });
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      lightbox.classList.add('active');
+    }
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.classList.remove('active');
+    }
   </script>
 </body>
 </html>
