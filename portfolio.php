@@ -27,13 +27,21 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Active
-  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-auto-rows: 10px;
+      gap: 15px;
+    }
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .gallery-item img { width: 100%; display: block; }
+  </style>
 </head>
 
 <body class="portfolio-page">
@@ -53,28 +61,56 @@
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
       <div class="container">
-        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-          <?php include 'portfolio-items.php'; ?>
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {"loop":true,"speed":600,"autoplay":{"delay":5000},"slidesPerView":"auto","pagination":{"el":".swiper-pagination","type":"bullets","clickable":true},"breakpoints":{"320":{"slidesPerView":1,"spaceBetween":40},"1200":{"slidesPerView":1,"spaceBetween":1}}}
+              </script>
+              <div class="swiper-wrapper">
+                <?php include 'testimonials-items.php'; ?>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </section><!-- End Portfolio Section -->
-
- 
+    </section>
 
   </main>
 
   <?php include 'footer.php'; ?>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  <!-- Gallery Script -->
+  <?php
+    $images = glob(__DIR__ . '/img/*.{jpg,png,gif}', GLOB_BRACE);
+    $webImages = array_map(fn($p) => 'img/' . basename($p), $images);
+  ?>
+  <script>
+    const images = <?php echo json_encode($webImages, JSON_UNESCAPED_SLASHES); ?>;
+    const gallery = document.getElementById('gallery');
+    images.forEach(src => {
+      const item = document.createElement('div');
+      item.className = 'gallery-item';
+      item.style.gridColumnEnd = `span ${Math.floor(Math.random()*2)+1}`;
+      item.style.gridRowEnd = `span ${Math.floor(Math.random()*3)+1}`;
+      const img = document.createElement('img'); img.src = src; img.alt = '';
+      item.appendChild(img);
+      gallery.appendChild(item);
+    });
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -85,8 +121,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
