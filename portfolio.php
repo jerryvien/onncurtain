@@ -11,7 +11,7 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Portfolio Showcase</title>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
   <style>
     /* CSS Columns Masonry Gallery */
     .gallery {
@@ -57,7 +57,7 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
   </main>
   <?php include 'footer.php'; ?>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   <script>
     const lightbox = GLightbox({ selector: '.glightbox' });
   </script>
