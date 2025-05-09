@@ -76,24 +76,28 @@
 
   <!-- Gallery Script -->
   <?php
-    // Fetch all images from img/portfolio directory
-    $images = glob(__DIR__ . '/img/portfolio/*.{jpg,png,gif}', GLOB_BRACE);
-    $webImages = array_map(fn($p) => 'img/portfolio/' . basename($p), $images);
+    // Fetch all images from img directory
+    $images = glob(__DIR__ . '/img/*.{jpg,png,gif}', GLOB_BRACE);
+    $webImages = array_map(fn($p) => 'img/' . basename($p), $images);
   ?>
   <script>
     const images = <?php echo json_encode($webImages, JSON_UNESCAPED_SLASHES); ?>;
     const gallery = document.getElementById('gallery');
-    images.forEach(src => {
-      const item = document.createElement('div');
-      item.className = 'gallery-item';
-      item.style.gridColumnEnd = `span ${Math.floor(Math.random()*2)+1}`;
-      item.style.gridRowEnd    = `span ${Math.floor(Math.random()*3)+1}`;
-      const img = document.createElement('img');
-      img.src = src;
-      img.alt = '';
-      item.appendChild(img);
-      gallery.appendChild(item);
-    });
+    if (images.length === 0) {
+      gallery.innerHTML = '<p>No images found in the directory.</p>';
+    } else {
+      images.forEach(src => {
+        const item = document.createElement('div');
+        item.className = 'gallery-item';
+        item.style.gridColumnEnd = `span ${Math.floor(Math.random()*2)+1}`;
+        item.style.gridRowEnd    = `span ${Math.floor(Math.random()*3)+1}`;
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = '';
+        item.appendChild(img);
+        gallery.appendChild(item);
+      });
+    }
   </script>
 
   <!-- Vendor JS Files -->
