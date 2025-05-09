@@ -46,7 +46,14 @@
 
 <body class="portfolio-page">
 
-  <?php include 'header.php'; ?>
+  <?php
+    // Fetch all images using absolute path
+    $images = glob($_SERVER['DOCUMENT_ROOT'] . '/img/*.{jpg,png,gif}', GLOB_BRACE);
+    // Prepare web-accessible URLs
+    $webImages = array_map(function($path) {
+        return '/img/' . basename($path);
+    }, $images);
+?>
 
   <main class="main">
 
