@@ -12,48 +12,47 @@ $images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $fil
   <title>Portfolio Showcase</title>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* Simple flex gallery where each box wraps image size */
+    /* CSS Columns Masonry Gallery */
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: flex-start;
+      column-width: 250px;
+      column-gap: 15px;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
     }
     .gallery-item {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 15px;
       border-radius: 8px;
       overflow: hidden;
       background: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      display: inline-block;
     }
     .gallery-item img {
-      display: block;
+      width: 100%;
       height: auto;
-      width: auto;
-      max-width: 200px; /* Optional: limit max width */
+      display: block;
     }
   </style>
 </head>
 <body>
   <?php include 'header.php'; ?>
-
   <main class="container py-4">
     <h1 class="mb-4">Portfolio</h1>
-    <div id="gallery" class="gallery">
-      <?php if(empty($images)): ?>
-        <p>No images found in <code>assets/img/portfolio</code>.</p>
-      <?php else: ?>
+    <?php if(empty($images)): ?>
+      <p>No images found in <code>assets/img/portfolio</code>.</p>
+    <?php else: ?>
+      <div class="gallery">
         <?php foreach($images as $src): ?>
           <div class="gallery-item">
-            <img src="<?= $src ?>" alt="">
+            <img src="<?= htmlspecialchars($src, ENT_QUOTES) ?>" alt="">
           </div>
         <?php endforeach; ?>
-      <?php endif; ?>
-    </div>
+      </div>
+    <?php endif; ?>
   </main>
-
   <?php include 'footer.php'; ?>
-
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
