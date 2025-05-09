@@ -80,7 +80,39 @@
                 {"loop":true,"speed":600,"autoplay":{"delay":5000},"slidesPerView":"auto","pagination":{"el":".swiper-pagination","type":"bullets","clickable":true},"breakpoints":{"320":{"slidesPerView":1,"spaceBetween":40},"1200":{"slidesPerView":1,"spaceBetween":1}}}
               </script>
               <div class="swiper-wrapper">
-                <?php include 'testimonials-items.php'; ?>
+                <div class="swiper-slide">
+                  <div class="testimonial mx-auto">
+                    <figure class="img-wrap">
+                      <img src="assets/img/testimonials/testimonials-1.jpg" alt="Image" class="img-fluid">
+                    </figure>
+                    <h3 class="name">Adam Aderson</h3>
+                    <blockquote>
+                      <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial mx-auto">
+                    <figure class="img-wrap">
+                      <img src="assets/img/testimonials/testimonials-2.jpg" alt="Image" class="img-fluid">
+                    </figure>
+                    <h3 class="name">Lukas Devlin</h3>
+                    <blockquote>
+                      <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                    </blockquote>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial mx-auto">
+                    <figure class="img-wrap">
+                      <img src="assets/img/testimonials/testimonials-3.jpg" alt="Image" class="img-fluid">
+                    </figure>
+                    <h3 class="name">Kayla Bryant</h3>
+                    <blockquote>
+                      <p>“There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                    </blockquote>
+                  </div>
+                </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
