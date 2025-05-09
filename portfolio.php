@@ -1,13 +1,9 @@
 <?php
 // Determine directory and URL path for portfolio images
-$portfolioDir = __DIR__ . '/img/portfolio';
+$portfolioDir = __DIR__ . '/assets/img/portfolio';
 $files = glob($portfolioDir . '/*.{jpg,png,gif}', GLOB_BRACE);
-// Build web-accessible URLs
-$baseUrl = dirname($_SERVER['SCRIPT_NAME']);
-if ($baseUrl === '/') { $baseUrl = ''; }
-$images = array_map(function($path) use ($baseUrl) {
-    return $baseUrl . '/img/portfolio/' . basename($path);
-}, $files);
+// Build web-accessible URLs (relative to this script)
+$images = array_map(fn($path) => 'assets/img/portfolio/' . basename($path), $files);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,15 +28,15 @@ $images = array_map(function($path) use ($baseUrl) {
   <script>
     const images = <?php echo json_encode($images, JSON_UNESCAPED_SLASHES); ?>;
     const gallery = document.getElementById('gallery');
-    if (images.length === 0) {
-      gallery.innerHTML = '<p>No images found in <code>img/portfolio</code>.</p>';
+    if (!images.length) {
+      gallery.innerHTML = '<p>No images found in <code>assets/img/portfolio</code>.</p>';
     } else {
       images.forEach(src => {
-        let item = document.createElement('div');
+        const item = document.createElement('div');
         item.className = 'gallery-item';
         item.style.gridColumnEnd = 'span ' + (Math.floor(Math.random()*2)+1);
         item.style.gridRowEnd    = 'span ' + (Math.floor(Math.random()*3)+1);
-        let img = document.createElement('img'); img.src = src;
+        const img = document.createElement('img'); img.src = src; img.alt = '';
         item.appendChild(img);
         gallery.appendChild(item);
       });
