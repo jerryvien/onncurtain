@@ -516,3 +516,34 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <?php include('footer.php'); ?>
+
+<!-- WhatsApp Floating Button for Onn Curtain -->
+<a href="https://wa.me/60129853351?text=Hi%2C%20I%20would%20like%20to%20chat%20with%20Onn%20Curtain."
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat with Onn Curtain on WhatsApp">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat with Onn Curtain">
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25d366;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+}
+</style>
+
