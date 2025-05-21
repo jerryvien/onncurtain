@@ -31,7 +31,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>14-2-1 Jalan Medan 3, Medan Putra Business Centre, 52200 Bandar Manjalara, Kuala Lumpur</p>
+                <p>14-2-1 Jalan Medan 3 Medan Putra Business Centre 52200 Bandar Manjalara K.L </p>
               </div>
             </div><!-- End Info Item -->
 
@@ -47,7 +47,7 @@
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
                 <h4>Call:</h4>
-                <p>012-9853351</p>
+                <p>+6012-9853351</p>
               </div>
             </div><!-- End Info Item -->
 
