@@ -31,7 +31,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>123 Elegant Ave, Suite 101, City, Country</p>
+                <p>14-2-1 Jalan Medan 3, Medan Putra Business Centre, 52200 Bandar Manjalara, Kuala Lumpur</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -39,7 +39,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@oncurtain.com</p>
+                <p>oncurtain@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -47,7 +47,7 @@
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
                 <h4>Call:</h4>
-                <p>+1 234 567 890</p>
+                <p>012-9853351</p>
               </div>
             </div><!-- End Info Item -->
 
